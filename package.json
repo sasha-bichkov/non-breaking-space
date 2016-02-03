@@ -1,0 +1,29 @@
+{
+  "name": "non-breaking-space",
+  "version": "0.0.1",
+  "description": "",
+  "license": "MIT",
+  "repository": "sasha-bichkov/non-breaking-space",
+  "author": {
+    "name": "Sasha Bichkov",
+    "email": "aleksandar.bichkov@gmail.com",
+    "url": "sasha-bichkov.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "typography",
+    "non-breaking-space"
+  ],
+  "devDependencies": {
+    "ava": "*",
+    "xo": "*"
+  }
+}
