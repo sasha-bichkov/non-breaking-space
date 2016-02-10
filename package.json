@@ -1,7 +1,7 @@
 {
   "name": "non-breaking-space",
   "version": "0.0.1",
-  "description": "",
+  "description": "A node library for inserting '&nbsp;'' after prepositions",
   "license": "MIT",
   "repository": "sasha-bichkov/non-breaking-space",
   "author": {
@@ -13,7 +13,7 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "xo && ava"
+    "test": "ava"
   },
   "files": [
     "index.js"
@@ -23,7 +23,6 @@
     "non-breaking-space"
   ],
   "devDependencies": {
-    "ava": "*",
-    "xo": "*"
+    "ava": "*"
   }
 }
