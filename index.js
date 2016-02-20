@@ -16,6 +16,7 @@ module.exports = function(options) {
       return match.trimRight() + nbsp;
     });
   }
+
   if (options.i == null && options.s == null) {
     return new TypeError("Error#options: the `input` parameter isn't specified");
   }
