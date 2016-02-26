@@ -3,7 +3,7 @@
 ## Install
 
 ```
-$ npm install -g nbsp 
+$ npm install -g nbsp
 ```
 
 ## Usage
