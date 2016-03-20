@@ -8,7 +8,7 @@ module.exports = function(options) {
   var nbsp = '&nbsp;';
 
   var prepositions = {
-    ru: /(^|\s)(я|к|с|в|(д|т|к|з)?ак?|(д|п)о|и(з|х)?|о(б|т|н)?|уж?|н(а|о|е)|вы)\s/gi
+    ru: /(^|\s)(я|к|с|вы?|(д|т|к|з)?ак?|(д|п)о|и(з|х)?|о(б|т|н)?|уж?|н(а|о|е))\s/gi
   };
 
   var replaceNbsp = function(text) {
